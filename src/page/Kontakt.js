@@ -28,7 +28,7 @@ function Kontakt() {
                 </form>
             </div>
         </section>
-          
+            <Footer />
         </>
     );
 }
