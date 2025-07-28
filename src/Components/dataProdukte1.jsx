@@ -14,7 +14,7 @@ export const cardData1 = [
   {
     id: 1,
     icon: BiBook,
-    title: "Lesen",
+    title: "Buch",
     description: "Die allmähliche Ansammlung von Informationen über das atomare und kleinskalige Verhalten ...",
     color: "#E74C3C",
     bgColor: "#FFE6E6",
@@ -25,7 +25,7 @@ export const cardData1 = [
   {
     id: 2,
     icon: BiPencil,
-    title: "Schreiben",
+    title: "Stift",
     description: "Die allmähliche Ansammlung von Informationen über das Verhalten auf atomarer und kleinskaliger Ebene …",
     color: "#27AE60",
     bgColor: "#E9F7EF",
@@ -36,7 +36,7 @@ export const cardData1 = [
   {
     id: 3,
     icon: FaCreditCard,
-    title: "Hören",
+    title: "E-Karte",
     description: "Die schrittweise Ansammlung von Informationen über atomare und kleinskalige Vorgänge …",
     color: "#2980B9",
     bgColor: "#EBF5FB",
@@ -47,7 +47,7 @@ export const cardData1 = [
   {
     id: 4,
     icon: PiOrange,
-    title: "Nedal",
+    title: "Orange",
     description: "Die allmähliche Ansammlung von Informationen über das atomare und kleinskalige Verhalten ...",
     color: "#E74C3C",
     bgColor: "#FFE6E6",
@@ -58,7 +58,7 @@ export const cardData1 = [
    {
     id: 5,
     icon: SiKrita,
-    title: "Ahmad",
+    title: "Apfel",
     description: "Die allmähliche Ansammlung von Informationen über das atomare und kleinskalige Verhalten ...",
     color: "#E74C3C",
     bgColor: "#FFE6E6",
@@ -66,16 +66,6 @@ export const cardData1 = [
     buttonClass: "produktbutton55",
     
   }, 
-  {
-    id: 6,
-    icon: PiLockKeyOpenFill,
-    title: "Muser",
-    description: "Die allmähliche Ansammlung von Informationen über das atomare und kleinskalige Verhalten ...",
-    color: "#E74C3C",
-    bgColor: "#FFE6E6",
-    buttonText: "Mehr zum Lesen",
-    buttonClass: "produktbutton66",
-    
-  },
+  
 
 ];

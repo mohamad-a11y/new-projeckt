@@ -873,4 +873,93 @@ margin: auto;
   }
 }
 
-  
+.preiserabatte {
+  background-color: var(--dark-blue);
+  color: var(--red);
+  text-align: center;
+}
+.btn-container1 {
+  background-color: var(--dark-blue);
+  display: flex;
+  flex-wrap: wrap;       
+  justify-content: center;
+  gap: 10px;
+}
+.btn-container1 .btn.btn-transparent1 {
+  color: var(--red);
+  transition: 0.3s ease;
+}
+
+.btn-container1 .btn.btn-transparent1:hover {
+  background-color: #f1f1f1;
+}
+
+/**kontakt start*/
+
+.kontakt {
+  background-color: var(--dark-blue);
+  color: var(--light-pink);
+  text-align: center;
+  padding: 50px 0;
+}
+.kontakt h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.kontakt p {
+  max-width: 600px;
+  margin: 2rem auto 2rem;
+  line-height: 1.6;
+}
+.kontakt-formular {
+  background-color:#0d0d2b;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.kontakt-formular input,
+.kontakt-formular textarea {
+  background-color:var(--dark-blue);
+  color: white;
+  width: 100%;
+  max-width: 400px;
+  padding: 0.75rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+.kontakt-formular button {
+  padding: 0.75rem 1.5rem;
+  background-color: var(--red);
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.kontakt-formular button:hover {
+  background-color: #217dbb;
+}
+.kontakt-formular .bttn {
+  background-color: var(--red);
+  color: white;
+  transition: 0.3s ease;
+  padding: 10px 30px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid var(--red);
+  margin: 0 5px;
+}
+.kontakt-formular .bttn:hover {
+  background-color: var(--dark-blue);
+}
+/**Kontakt end*/

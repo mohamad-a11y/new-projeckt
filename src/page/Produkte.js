@@ -49,10 +49,10 @@ function Produkte() {
             </section >
             <section>
                 <>
-                    <div className="zwei"> 
+                    <div className="zwei">
                         <h3>Unsere Produkte</h3>
                         <p className="p1">Hier Können Sie unsere produkte entdecken</p>
-                        <div className="card-container2"> 
+                        <div className="card-container2">
                             {cardData1.map((card) => {
                                 const Icon = card.icon;
                                 return (
@@ -68,6 +68,17 @@ function Produkte() {
                                 );
                             })}
                         </div>
+                    </div>
+                </>
+            </section>
+            <section className="preiserabatte">
+                <>
+                    <h1 className="h1">Rabatte</h1>
+                    <div className="homeüberuns">
+                        <p>Unsere Rabatte ist die beste Möglichkeit, um unsere Produkte zu kaufen</p>
+                    </div><br></br>
+                    <div className="btn-container1">
+                        <a href="#" className="btn btn-transparent1">Lesen Sie weiter </a>
                     </div>
                 </>
             </section>

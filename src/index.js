@@ -8,6 +8,7 @@ import App from './App';
 import Home from './page/Home';
 import Produkte from './page/Produkte';
 import Preise from './page/Preise';
+import Kontakt from './page/Kontakt';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 
@@ -21,6 +22,7 @@ root.render(
         <Route path="/header" element={<Header />} />
         <Route path="/produkte" element={<Produkte />} />
         <Route path="/preise" element={<Preise />} />
+        <Route path="/kontakt" element={<Kontakt />} />
         <Route path="/footer" element={<Footer />} />
       </Routes>
     </BrowserRouter>
